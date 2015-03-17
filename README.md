@@ -41,6 +41,11 @@ zk-web is also easy to configurate. It reads `$HOME/.zk-web-conf.clj` or `conf/z
 * Simple authority management.
 * Default node for first-arrival guest.
 
+##Deploy as War
+execute
+		lein ring uberwar
+and deploy the resulting war file
+
 ## TODO
 * Data Format - Format json, xml and so on.
 
